@@ -1,0 +1,104 @@
+:root {
+	--clr-primary-250: #fdfefe;
+	--clr-primary-500: #f0f3f4;
+	--clr-primary-750: #212f3d;
+	--clr-primary-1000: #17202a;
+	--clr-accent: #008044;
+
+	--ff-primary: "Work Sans";
+	--ff-accent: "Montserrat";
+}
+
+body {
+	background-color: var(--clr-primary-500);
+	font-family: var(--ff-primary);
+	font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: var(--ff-accent);
+}
+
+p {
+	font-size: 1.25rem;
+}
+
+#green-bar {
+	background-color: var(--clr-accent);
+	height: 0.625rem;
+	width: 100%;
+}
+
+.navbar-light {
+	color: black;
+}
+
+.navbar-nav:nth-child(1) .nav-item .nav-link {
+	padding-left: 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+	color: black;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+	color: black;
+	text-decoration: underline var(--clr-accent);
+	text-decoration-thickness: 0.18rem;
+	text-underline-offset: 0.3rem;
+}
+
+#socials .nav-link {
+	color: black;
+}
+
+.fa-xl:hover {
+	color: var(--clr-accent);
+}
+
+#header {
+	margin-top: 10rem;
+}
+
+#header h1 {
+	max-width: 48rem;
+	font-weight: 300;
+}
+
+#name {
+	font-weight: bold;
+}
+
+#tagline {
+	max-width: 48rem;
+	font-size: 1.5em;
+}
+
+.heading {
+	font-weight: 600;
+	text-decoration: underline var(--clr-accent);
+	text-decoration-thickness: 0.18rem;
+	text-underline-offset: 0.3rem;
+}
+
+#profile,
+#skills,
+#projects {
+	margin-top: 10rem;
+}
+
+#about p {
+	max-width: 48rem;
+}
+
+#skills ul {
+	padding-left: 0;
+}
+
+#skills li {
+	padding: 0.188rem;
+	list-style-type: none;
+}
