@@ -9,6 +9,16 @@
 	--ff-accent: "Montserrat";
 }
 
+::-moz-selection {
+	color: var(--clr-primary-500);
+	background-color: var(--clr-accent);
+}
+
+::selection {
+	color: var(--clr-primary-500);
+	background-color: var(--clr-accent);
+}
+
 body {
 	background-color: var(--clr-primary-500);
 	font-family: var(--ff-primary);
@@ -55,12 +65,25 @@ p {
 	color: black;
 }
 
+.social-link {
+	color: black;
+	text-decoration: none;
+}
+
+.social-link:hover {
+	color: black;
+	text-decoration: underline var(--clr-accent);
+	text-decoration-thickness: 0.18rem;
+	text-underline-offset: 0.3rem;
+}
+
 .fa-xl:hover {
 	color: var(--clr-accent);
 }
 
 #header {
-	margin-top: 10rem;
+	padding-top: 13rem;
+	height: 100vh;
 }
 
 #header h1 {
@@ -84,7 +107,6 @@ p {
 	text-underline-offset: 0.3rem;
 }
 
-#profile,
 #skills,
 #projects {
 	margin-top: 10rem;
@@ -101,4 +123,28 @@ p {
 #skills li {
 	padding: 0.188rem;
 	list-style-type: none;
+}
+
+.project {
+	margin-top: 3rem;
+}
+
+.project-title {
+	font-weight: 600;
+}
+
+.project-title a {
+	color: black;
+	text-decoration: none;
+}
+
+.project-title a:hover {
+	color: black;
+	text-decoration: underline var(--clr-accent);
+	text-decoration-thickness: 0.18rem;
+	text-underline-offset: 0.3rem;
+}
+
+.project-description {
+	font-size: 1.125rem;
 }
