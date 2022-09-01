@@ -70,13 +70,6 @@ p {
 	text-decoration: none;
 }
 
-.social-link:hover {
-	color: black;
-	text-decoration: underline var(--clr-accent);
-	text-decoration-thickness: 0.18rem;
-	text-underline-offset: 0.3rem;
-}
-
 .fa-xl:hover {
 	color: var(--clr-accent);
 }
@@ -123,6 +116,11 @@ p {
 #skills li {
 	padding: 0.188rem;
 	list-style-type: none;
+	cursor: default;
+}
+
+#skills li:hover {
+	color: var(--clr-accent);
 }
 
 .project {
@@ -147,4 +145,27 @@ p {
 
 .project-description {
 	font-size: 1.125rem;
+}
+
+.project-image {
+	border: solid var(--clr-accent);
+}
+
+#projects .badge {
+	cursor: default;
+}
+
+#topButton {
+	color: var(--clr-primary-500);
+	background-color: var(--clr-accent);
+	display: none;
+	position: fixed;
+	bottom: 1.563rem;
+	right: 1.563rem;
+	z-index: 99;
+}
+
+#topButton:hover,
+#topButton svg:hover {
+	color: black;
 }
