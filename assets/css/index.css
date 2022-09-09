@@ -19,6 +19,14 @@
 	background-color: var(--clr-accent);
 }
 
+.bg-success {
+	background-color: var(--clr-accent) !important;
+}
+
+.btn-success {
+	background-color: var(--clr-accent);
+}
+
 body {
 	background-color: var(--clr-primary-500);
 	font-family: var(--ff-primary);
