@@ -78,6 +78,7 @@ p {
 	text-decoration: none;
 }
 
+.fa-lg:hover,
 .fa-xl:hover {
 	color: var(--clr-accent);
 }
@@ -161,6 +162,14 @@ p {
 
 #projects .badge {
 	cursor: default;
+}
+
+footer a:hover {
+	color: var(--clr-accent);
+}
+
+#resumeIcon {
+	margin-left: 2.813rem;
 }
 
 #topButton {
